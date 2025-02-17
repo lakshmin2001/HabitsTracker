@@ -1,0 +1,53 @@
+.side-navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 1000;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-right: 1px solid #ccc;
+}
+
+.side-navbar {
+  width: 200px;
+  height: 100%;
+  background-color: #f8f9fa;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  float: right;
+}
+
+.side-navbar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.side-navbar ul li {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.side-navbar ul li:hover {
+  background-color: #e9ecef;
+}
+
+.side-navbar ul li.active {
+  font-weight: bold;
+  background-color: #007bff;
+  color: white;
+}
